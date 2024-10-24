@@ -1,0 +1,26 @@
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem; 
+  }
+  
+  .add-to-cart-btn {
+    font-size: 1rem; 
+    font-weight: bold; 
+  }
+  
+
+  @media (max-width: 515px) {
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+    }
+    .order-lg-1 {
+      order: 2;
+    }
+    .order-lg-2 {
+      order: 1;
+    }
+  }
+
